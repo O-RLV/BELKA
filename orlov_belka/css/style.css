@@ -1,0 +1,15 @@
+/*общие свойства*/
+/** {
+ margin: 0;
+ padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ }*/
+
+.we-advantages__text:before {
+  content: attr(data-src);
+  width: 20px;
+  height: 20px;
+  display: block;
+}
